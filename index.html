@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atholton Computer Science Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Atholton Computer Science Club</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>The Atholton Computer Science Club is a student-run organization dedicated to promoting interest and knowledge in computer science. We offer a variety of events, workshops, and resources to help students learn and grow their skills.</p>
+            <button onclick="toggleMembership()">Join the Club</button>
+            <div id="membershipForm" style="display: none;">
+                <h3>Membership Information</h3>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <ul id="eventList"></ul>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="#">Online Tutorials</a></li>
+                <li><a href="#">Coding Challenges</a></li>
+                <li><a href="#">Books and Articles</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Atholton Computer Science Club 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
